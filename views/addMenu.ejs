@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <%- include('partials/header.ejs') %>
+       
+    </head>
+    <body>
+        <%- include('partials/navbar2.ejs') %>
+        <div class="container">
+            <h2>Add Menu</h2>
+            <form method="POST">
+                <label for="foodID">Food ID</label>
+                <input type="text" id="foodID" placeholder="Enter Food ID" name="foodID">
+                <label for="foodTypeID">Food Type ID</label>
+                <input type="text" id="foodTypeID" placeholder="Enter Food Type ID" name="foodTypeID">
+                <label for="id">Food Name</label>
+                <input type="text" id="foodName" placeholder="Enter Food name" name="foodName">
+                <label for="price">Price</label>
+                <input type="text" id="price" placeholder="Enter Price" name="price">
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </body>
+ 
+</html>
