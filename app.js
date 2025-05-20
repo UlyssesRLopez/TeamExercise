@@ -45,6 +45,7 @@ app.get('/login',function(req,res){
 app.get('/register',function(req,res){
     res.render("register",{title:'Register'});
 });
+//just a comment
 
 //This will send a POST request to '/register' which will store 
 //the user information in a table.
