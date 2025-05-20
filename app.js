@@ -116,6 +116,7 @@ app.get('/membersOnly', function (req, res, next) {
 	}
 });
 
+//yet another comment added
 
 //Admin can access this if they are logged in
 app.get('/adminOnly', function (req, res, next) {
